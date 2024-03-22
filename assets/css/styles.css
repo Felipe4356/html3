@@ -1,59 +1,57 @@
 :root {
-    --color1:#5DADE2; 
-    --color2:#F4D03F;
-    --color3:#E67E22;
-    --color4:#17202A;
-    --color5:#F7F9F9;
-    --color6: #E74C3C;
-  }
-*{
- margin: 0px;
- padding: 0px;
+  --color1: #5DADE2; 
+  --color2: #F4D03F;
+  --color3: #E67E22;
+  --color4: #17202A;
+  --color5: #F7F9F9;
+  --color6: #E74C3C;
 }
 
-  .caja{
-    display: flex;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.columna20{
- width: 20%;
- background-color: #17202A;
- 
+.caja {
+  display: flex;
 }
 
-.columna80{
-width: 80% ;
-
+.columna20 {
+  width: 20%;
+  background-color: var(--color4);
 }
 
-a{
-color: var(--color5)
+.columna80 {
+  width: 80%;
 }
 
-.boton{
-
-text-align: center;
-padding: 15px 30px;
-}
-.caja2{
-background-color:var(--color1);
-
+a {
+  color: var(--color5);
 }
 
-.caja3{
-    background-color:var(--color2) ;
-    }
+.boton {
+  text-align: center;
+  padding: 15px 30px;
+}
 
-    .caja4{
-        background-color:var(--color3) ;
+.caja2 {
+  background-color: var(--color1);
+}
 
-        }
+.caja3 {
+  background-color: var(--color2);
+}
+.caja4 {
+  background-color: var(--color3);
+}
+
 .caja5{
-background-color: var(--color6);
+ background-color: var(--color6);
 }
-  
-.caja25{
- height: 25vh;
- padding: 20px;
- color: var(--color5);
+
+
+.caja25 {
+  height: 25vh;
+  padding: 20px;
+  color: var(--color5);
 }
